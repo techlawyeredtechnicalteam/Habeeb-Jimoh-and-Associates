@@ -6,16 +6,34 @@ import Layout from "../components/Layout";
 
 const attorneys = [
   {
-    name: "Temilorun F. Komolafe ESQ, LL.M, ACIARB, MIMA (UK)",
-    title: "Principal Counsel",
+    name: "Habeeb Abiola Jimoh",
+    title: "Senior Partner",
     // bio: 'Sophia has over 20 years of experience in corporate law, specializing in mergers and acquisitions.',
     image: "/owner.png"
   },
   {
-    name: "N.C Muojekwu ESQ",
-    title: "Associate",
+    name: "Simbiat LoLa ",
+    title: "Partner",
     // bio: 'James represents clients in complex civil litigation and arbitration across multiple jurisdictions.',
     image: "/lawyer.png"
+  },
+  {
+    name: "Habibu M. Abdullahi",
+    title: "Consultant Partner",
+    // bio: 'James represents clients in complex civil litigation and arbitration across multiple jurisdictions.',
+    image: "/lawyer2.png"
+  },
+  {
+    name: "I. O. Adedeji ",
+    title: "Partner",
+    // bio: 'James represents clients in complex civil litigation and arbitration across multiple jurisdictions.',
+    image: "/lawyer3.png"
+  },
+  {
+    name: "K. O. Jimoh (Mrs)",
+    title: "Practice Manager"
+    // bio: 'James represents clients in complex civil litigation and arbitration across multiple jurisdictions.',
+    // image: "/lawyer.png"
   }
 ];
 
@@ -37,7 +55,7 @@ const Attorneys = () => {
     <Layout>
       <div className="bg-gray-100 min-h-screen py-20 px-4">
         <Head>
-          <title>Amas & Rhod Law | Attorneys</title>
+          <title>Habeeb Jimoh & Associates | Attorneys</title>
         </Head>
         <div className="max-w-7xl mx-auto">
           {/* Header */}

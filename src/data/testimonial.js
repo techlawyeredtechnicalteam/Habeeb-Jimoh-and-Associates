@@ -17,11 +17,11 @@ export const testimonials = [
   {
     name: "Mr Joseph Akinsusi",
     quote:
-      "From my experience with Amas and Rhod Law, what  truly sets them apart is their commitment to the success of my case which gave me absolute peace of mind"
+      "From my experience with Habeeb Jimoh & Associates , what  truly sets them apart is their commitment to the success of my case which gave me absolute peace of mind"
   },
   {
     name: "Philip Okwor",
     quote:
-      "I wholeheartedly recommend AMAS and RHOD LAW firm to anyone seeking reliable, results-oriented and trustworthy legal representation"
+      "I wholeheartedly recommend Habeeb Jimoh & Associates  firm to anyone seeking reliable, results-oriented and trustworthy legal representation"
   }
 ];
