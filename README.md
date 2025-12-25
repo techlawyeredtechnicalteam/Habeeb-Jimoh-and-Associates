@@ -1,2 +1,2 @@
-# Amas-Rhod
-Trusted Legal Advisory
+# Habeeb-Jimoh-and-Associates
+Innovative approach to legal services
