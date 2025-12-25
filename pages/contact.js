@@ -123,9 +123,9 @@ const Contact = () => {
                       Contact US
                     </h3>
                     <p className="text-gray-600 text-sm">
-                      Emerge Hub No 4 Ayanboye street,
+                      8B Valley View Close,
                       <br />
-                      faramobi Ajike street Anthony village,
+                      Valley Estate, Ikeja,
                       <br />
                       Lagos, Nigeria.
                     </p>
@@ -138,11 +138,11 @@ const Contact = () => {
                     <h3 className="font-semibold text-gray-800 text-lg">
                       Phone
                     </h3>
-                    <a href="tel:+2348134642665" className="hover:underline">
-                      +234 813 464 2665, <br />
+                    <a href="tel:+2347038771202" className="hover:underline">
+                      +234 703 877 1202, <br />
                     </a>
-                    <a href="tel:+2349137565593" className="hover:underline">
-                      +234 913 756 5593 <br />
+                    <a href="tel:+2348058334106" className="hover:underline">
+                      +234 805 833 4106 <br />
                     </a>
                   </div>
                 </div>
@@ -154,10 +154,10 @@ const Contact = () => {
                       Email
                     </h3>
                     <a
-                      href="mailto:info@amasandrhodlaw.com"
+                      href="mailto:Habeeb.a.jimoh@niegerianbar.ng"
                       className="hover:underline"
                     >
-                      info@amasandrhodlaw.com
+                      Habeeb.a.jimoh@niegerianbar.ng
                     </a>
                   </div>
                 </div>

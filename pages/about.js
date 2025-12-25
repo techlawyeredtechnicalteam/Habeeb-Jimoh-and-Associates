@@ -26,29 +26,59 @@ const scaleIn = {
 export default function AboutUs() {
   const focusAreas = [
     {
-      title: "Maritime law",
+      title: "Corporate law Banking & Insurance",
       description:
-        "Providing legal advisory and representation across maritime operations, including contract drafting and review for shipping, haulage and logistics transactions, demurrage and freight disputes, vessel chartering agreements, cargo claims, regulatory compliance, and enforcement of maritime rights before competent tribunals, in line with the Admiralty Jurisdiction Act and other applicable laws."
+        "HJ & A is dedicated to delivering tailored legal solutions that meet the unique needs of our clients. Whether navigating complex financing transactions or ensuring regulatory compliance, our team is equipped to provide the highest level of legal support to banks and other financial institutions, and insurance companies operating in Nigeria and beyond."
     },
     {
-      title: "Entertainment law",
+      title: "Fintech Practice",
       description:
-        "Providing comprehensive legal support to creatives and entertainment businesses in the negotiation, drafting, and enforcement of contracts, intellectual property protection, talent representation, and regulatory compliance across the media and entertainment industry."
+        "At Habeeb Jimoh & Associates, we are committed to driving innovation and success in the fintech industry through exceptional legal services. Our client-centric approach ensures that we understand your business goals and tailor our services to meet your specific needs. With extensive experience and deep industry knowledge, we are well-equipped to help you navigate the complexities of the fintech landscape and achieve your strategic objectives."
     },
     {
-      title: "Immigration Law",
+      title: "RegTech and InsurTech",
       description:
-        "Providing legal representation and advisory services on immigration matters, including visa applications, permanent residency and citizenship processing, and compliance with statutory and administrative immigration requirements."
+        "At HJ & A, our RegTech and InsurTech practice is driven by a commitment to innovation and a deep understanding of the legal challenges these industries face. We work closely with our clients to develop legal strategies that ensure compliance while supporting their growth and innovation goals. Whether you are developing new technologies, forming partnerships, or seeking to ensure regulatory compliance, HJA is your trusted partner in these dynamic and evolving sectors."
     },
     {
-      title: "Family law",
+      title: "Intellectual Property & Data Privacy Law ",
       description:
-        "Providing legal advisory and representation in family law matters, including marriage validation, dissolution of marriage, child custody and maintenance proceedings, domestic abuse and violence, domestic partnership agreements, inheritance rights, Wills and probate, and enforcement of family-related court orders, in accordance with applicable statutory and customary law frameworks."
+        "The integration of our extensive background in intellectual property with our proficiency in corporate and commercial law equips us with a unique skill set. This enables us to adeptly guide clients through the complex intellectual property challenges that emerge in commercial transactions."
     },
     {
-      title: "Property law",
+      title: "Dispute Resolution",
       description:
-        "Providing legal advisory on real estate transactions, including title investigation, land verification, property documentation, contract drafting, tenancy structuring, and dispute prevention, in accordance with relevant land and conveyancing laws."
+        "Our dispute resolution group is highly skilled in handling a broad spectrum of commercial disputes, including commercial debt recovery, employment and trade disputes, finance and securities disputes. Our expertise lies in solving problems and managing risks. Our experienced litigators effectively and efficiently bring cases, including the most complex, multifaceted issues, to resolution through Nigerian courts, arbitration or alternative dispute resolution."
+    },
+    {
+      title: "Matrimonial Causes",
+      description:
+        "At HJ & A, we specialize in guiding individuals through the complex and often emotional landscape of matrimonial law and processes. Our team of experienced lawyers are dedicated to providing expert counsel and representation in all aspects of matrimonial matters."
+    },
+    {
+      title: "Real Estate",
+      description:
+        "Our real estate and construction team supports clients at every stage of real estate development, from planning and due diligence on land acquisition, to assisting with title perfection, advising on corporate structures and joint development agreements, and ultimately leasing office spaces or residential units to tenants upon completion of construction."
+    },
+    {
+      title: "Immigration",
+      description:
+        "At Habeeb Jimoh & Associates (HJA), our Immigration Practice is dedicated to offering comprehensive legal services for individuals and businesses navigating the complexities of immigration law in Nigeria. We provide expert guidance on all aspects of immigration, including visa applications, work permits, expatriate quotas, and residency status."
+    },
+    {
+      title: "Labour & Employment",
+      description:
+        "We ensure that both employers and employees understand and adhere to evolving legal standards, offering support through negotiation, mediation, and litigation. Whether you're managing a workforce or protecting your rights, HJA is your trusted partner for all labor and employment matters."
+    },
+    {
+      title: "Transport & Logistics",
+      description:
+        "We offer specialized legal services for Nigeria’s transport and logistics companies. In recent years, we have continue to provide expert guidance on regulatory compliance, contract negotiations, and dispute resolution, ensuring that businesses in these industries operate smoothly and efficiently. For transport businesses, we address issues related to contracts, fleet management, and regulatory compliance. In logistics, we assist with supply chain management, warehousing, and customs regulations."
+    },
+    {
+      title: "Environmental Law & Climate Change ",
+      description:
+        "When a company faces a lawsuit over pollution or environmental damage, our team defends them in the courts, which is a necessary part of this practice. We also do the critical background checks for large property deals, looking for hidden environmental problems that could later become a serious financial liability for the buyer, and we are very good at that part of the job. We believe that a business should be able to grow without harming the environment, and our job is to help them find that balance."
     }
   ];
 
@@ -56,7 +86,7 @@ export default function AboutUs() {
     <Layout>
       <div className="bg-gray-50 min-h-screen py-20 px-6">
         <Head>
-          <title>Amas & Rhod Law | About Us</title>
+          <title>Habeeb Jimoh & Associates| About Us</title>
         </Head>
 
         <div className="max-w-7xl mx-auto space-y-24">
@@ -69,21 +99,21 @@ export default function AboutUs() {
             className="text-center"
           >
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 font-garamond">
-              About Amas & Rhod Law
+              About Habeeb Jimoh & Associates (HJ & A)
             </h1>
             <p className="mt-6 text-lg text-gray-600 max-w-2xl mx-auto text-justify">
-              Established in May 2022, in Lagos State Nigeria, Amas & Rhod Law
-              is a modern legal practice focused on delivering practical and
-              accessible legal solutions across maritime, entertainment, family,
-              property and immigration law. We have advised and represented
-              clients ranging from truckers and logistics operators, transport
-              unions, to creatives within the entertainment industry and
-              property owners, handling contract reviews, regulatory compliance,
-              negotiations, ADR, and dispute prevention. Known for our
-              professionalism, proactiveness, in time responsiveness, and
-              affordability, we remain committed to protecting our clients&apos;
-              interests with clarity and efficiency.
-              {/* Law in action. Protection in motion; Our Lawyers are working! */}
+              Is a leading hybrid law firm based in the heart of Lagos, Nigeria,
+              renowned for its innovative approach to legal services. We
+              leverage cutting-edge technology to provide seamless, efficient,
+              and effective legal solutions to our clients, regardless of their
+              geographical location. Our team comprises experienced and
+              dedicated legal professionals who excel in various practice areas,
+              including corporate law, Banking & Insurance law, Fintech,
+              RegTech, intellectual property Law, Dispute resolution,
+              Matrimonial Causes, Real Estate, Immigration, Environmental Law,
+              Labour & Employment, Transport & Logistics, Data Protection and
+              beyond. We are committed to setting new standards of excellence in
+              the legal industry.
             </p>
           </motion.section>
 
@@ -92,17 +122,17 @@ export default function AboutUs() {
             {[
               {
                 title: "Our Mission",
-                text: "To empower clients with practical and top-tier legal solutions, delivered with confidence, insight, and strategic clarity. We are committed to protecting our clients’ interests, preventing disputes, and providing decisive representation across every legal challenge.",
+                text: "Our mission is to revolutionize legal services by providing top-tier, accessible, and efficient legal solutions through a hybrid platform. We strive to uphold the highest standards of professionalism and integrity, building lasting relationships with our clients through personalized attention and exceptional legal expertise. Our goal is to consistently meet and exceed our clients' evolving needs, ensuring their success and peace of mind.",
                 image: "/mission.png"
               },
               {
                 title: "Our Vision",
-                text: "To redefine the legal landscape by empowering individuals and businesses through exceptional advocacy and trusted counsel.",
+                text: "To redefine the legal landscape by becoming the foremost virtual law firm in Africa, celebrated for our unwavering dedication to innovation, excellence, and unparalleled client satisfaction.",
                 image: "/vision.png"
               },
               {
                 title: "Our Values",
-                text: "Integrity, diligence, excellence, empathy, and innovation are the core principles that guide every aspect of our practice.",
+                text: "Integrity, Innovation, Excellence, Client-Centricity, and Collaboration.",
                 image: "/values.png"
               }
             ].map((item, i) => (

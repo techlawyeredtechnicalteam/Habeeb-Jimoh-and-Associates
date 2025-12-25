@@ -11,42 +11,39 @@ function MyApp({ Component, pageProps }) {
           content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
         />
         <title>
-          Amas & Rhod Law | Law in action. Protection in motion; Our Lawyers are
-          working!
+          Habeeb Jimoh & Associates | Innovative approach to legal services
         </title>
         <meta
           name="description"
-          content="Amas & Rhod Law offers top-tier legal services across multiple practice areas including Corporate Law, Real Estate, and Litigation. Tailored legal solutions for your business and personal needs."
+          content="Habeeb Jimoh & Associates offers top-tier legal services across multiple practice areas including Corporate Law, Real Estate, and Litigation. Tailored legal solutions for your business and personal needs."
         />
 
         {/* Open Graph Meta Tags for Social Media */}
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Amas & Rhod Law | Law in action. Protection in motion; Our Lawyers are
-          working!"
+          content="Habeeb Jimoh & Associates | Innovative approach to legal services"
         />
         <meta
           property="og:description"
-          content="Amas & Rhod Law offers expert legal services across Corporate Law, Real Estate, Litigation, and more. Get tailored legal solutions today."
+          content="Habeeb Jimoh & Associates offers expert legal services across Corporate Law, Real Estate, Litigation, and more. Get tailored legal solutions today."
         />
         <meta
           property="og:image"
           content="https://www.honoredgelp.vercel.app/hero.png"
         />
         <meta property="og:url" content="https://www.honoredgelp.vercel.app" />
-        <meta property="og:site_name" content="Amas & Rhod Law" />
+        <meta property="og:site_name" content="Habeeb Jimoh & Associates" />
 
         {/* Twitter Card Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Amas & Rhod Law | Law in action. Protection in motion; Our Lawyers are
-          working!"
+          content="Habeeb Jimoh & Associates | Innovative approach to legal services"
         />
         <meta
           name="twitter:description"
-          content="Amas & Rhod Law offers expert legal services in various fields, providing clients with solutions tailored to their needs."
+          content="Habeeb Jimoh & Associates offers expert legal services in various fields, providing clients with solutions tailored to their needs."
         />
         <meta
           name="twitter:image"
@@ -73,7 +70,7 @@ function MyApp({ Component, pageProps }) {
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "LegalService",
-              name: "Amas & Rhod Law",
+              name: "Habeeb Jimoh & Associates",
               url: "https://www.honoredgelp.vercel.app",
               logo: "https://www.honoredgelp.com/logo.png",
               description:
