@@ -33,7 +33,7 @@ export default function Footer() {
                 <i className="fab fa-twitter"></i>
               </a>
               <a
-                href="https://www.instagram.com/amasandrhodlaw?igsh=MXM4ZDJsY3liZjVmaQ=="
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"

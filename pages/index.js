@@ -10,8 +10,8 @@ import { StarIcon } from "@heroicons/react/24/solid";
 import { testimonials } from "../src/data/testimonial";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { getStaticProps } from "../src/services/BlogStaticProps";
-import TwitterFeed from "../components/TwitterFeed";
-import LinkedInFeed from "../components/LinkedInFeed";
+// import TwitterFeed from "../components/TwitterFeed";
+// import LinkedInFeed from "../components/LinkedInFeed";
 
 export { getStaticProps };
 
@@ -106,7 +106,7 @@ export default function Home({ posts }) {
           {/* Practice Areas */}
           <section
             id="practice-areas"
-            className="bg-blue-950 text-white py-24 px-6 md:px-20"
+            className="bg-slate-900 text-white py-24 px-6 md:px-20"
           >
             <div className="max-w-7xl mx-auto text-center">
               <h2 className="text-4xl font-garamond md:text-5xl font-bold mb-6">
@@ -115,11 +115,11 @@ export default function Home({ posts }) {
               <p className="text-gray-400 text-lg mb-16">
                 Expertise across key fields to meet your unique legal needs.
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {focusAreas.map((area, idx) => (
                   <div
                     key={idx}
-                    className="bg-white rounded-lg p-8 hover:bg-gray-50 transition duration-300 shadow-lg"
+                    className="bg-white rounded-lg p-6 hover:bg-gray-50 transition duration-300 shadow-lg"
                   >
                     <h4 className="text-xl font-bold mb-4 text-black">
                       {area.title}
