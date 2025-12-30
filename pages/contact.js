@@ -123,7 +123,7 @@ const Contact = () => {
                       Contact US
                     </h3>
                     <p className="text-gray-600 text-sm">
-                      8B Valley View Close,
+                      Valley View Close,
                       <br />
                       Valley Estate, Ikeja,
                       <br />
@@ -154,10 +154,10 @@ const Contact = () => {
                       Email
                     </h3>
                     <a
-                      href="mailto:Habeeb.a.jimoh@niegerianbar.ng"
+                      href="mailto:Habeeb.a.jimoh@nigerianbar.ng"
                       className="hover:underline"
                     >
-                      Habeeb.a.jimoh@niegerianbar.ng
+                      Habeeb.a.jimoh@nigerianbar.ng
                     </a>
                   </div>
                 </div>

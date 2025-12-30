@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import BlogList from "./BlogList";
-import { useInView } from "framer-motion";
+import { AnimatePresence, useInView } from "framer-motion";
 import Layout from "../components/Layout";
 import { useAnimation } from "framer-motion";
-import { focusAreas } from "../src/data/focusArea";
+import { FocusAreaModal, focusAreas } from "../src/data/focusArea";
 import { useEffect, useRef, useState } from "react";
 import { StarIcon } from "@heroicons/react/24/solid";
 import { testimonials } from "../src/data/testimonial";
@@ -17,6 +17,7 @@ export { getStaticProps };
 
 export default function Home({ posts }) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedArea, setSelectedArea] = useState(null);
 
   // Auto testimonials every 5 seconds
   useEffect(() => {
@@ -37,8 +38,11 @@ export default function Home({ posts }) {
     setCurrentIndex((prev) => (prev + 1) % testimonials.length);
   };
 
+  const openModal = (area) => setSelectedArea(area);
+  const closeModal = () => setSelectedArea(null);
+
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true }); // animate only once
+  const isInView = useInView(ref, { once: true });
   const controls = useAnimation();
 
   useEffect(() => {
@@ -49,7 +53,7 @@ export default function Home({ posts }) {
 
   return (
     <Layout>
-      <div className="font-sans text-gray-800 w-full">
+      <div className="font-sans text-gray-800">
         <main className="">
           {/* Hero Section */}
           <section className="relative h-screen w-full">
@@ -64,15 +68,9 @@ export default function Home({ posts }) {
               <h1 className="text-5xl md:text-6xl font-garamond font-bold mb-6 leading-tight">
                 Habeeb Jimoh & Associates
               </h1>
-              <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+              {/* <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
                 Innovative approach to legal services
-              </p>
-              {/* <a
-                href="#contact"
-                className="bg-white text-black font-semibold py-3 px-8 rounded-full hover:bg-blue-100 transition duration-300"
-              >
-                Schedule a Consultation
-              </a> */}
+              </p> */}
             </div>
           </section>
 
@@ -106,25 +104,44 @@ export default function Home({ posts }) {
           {/* Practice Areas */}
           <section
             id="practice-areas"
-            className="bg-slate-900 text-white py-24 px-6 md:px-20"
+            className="bg-[#b7860d] text-white py-24 px-6 md:px-20"
           >
             <div className="max-w-7xl mx-auto text-center">
               <h2 className="text-4xl font-garamond md:text-5xl font-bold mb-6">
-                Our <span className="text-black italic">Areas of Focus</span>
+                What <span className="text-primary-200 italic">we do</span>
               </h2>
               <p className="text-gray-400 text-lg mb-16">
-                Expertise across key fields to meet your unique legal needs.
+                Click on any area to learn more about our expertise.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {focusAreas.map((area, idx) => (
                   <div
                     key={idx}
-                    className="bg-white rounded-lg p-6 hover:bg-gray-50 transition duration-300 shadow-lg"
+                    onClick={() => openModal(area)}
+                    className="relative rounded-xl overflow-hidden shadow-xl cursor-pointer group h-64"
                   >
-                    <h4 className="text-xl font-bold mb-4 text-black">
-                      {area.title}
-                    </h4>
-                    <p className="text-black">{area.description}</p>
+                    {/* Background Image */}
+                    {area.image ? (
+                      <Image
+                        src={area.image}
+                        alt={area.title}
+                        fill
+                        className="object-cover transition duration-500 group-hover:scale-105"
+                      />
+                    ) : (
+                      <div className="absolute inset-0 bg-primary-200/50 flex items-center justify-center">
+                        <span className="text-white text-lg">
+                          Image Placeholder
+                        </span>
+                      </div>
+                    )}
+
+                    {/* Title Overlay */}
+                    <div className="absolute inset-0 bg-black/50 group-hover:bg-black/70 transition duration-300 flex items-center justify-center p-4">
+                      <h4 className="text-2xl font-garamond font-bold text-white text-center">
+                        {area.title}
+                      </h4>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -167,17 +184,17 @@ export default function Home({ posts }) {
                 {/* Card 2 */}
                 <div className="relative rounded-xl overflow-hidden shadow-lg">
                   <Image
-                    src="/tingey.png"
+                    src="/values.png"
                     alt="Corporate & Commercial Law"
                     width={600}
                     height={256}
-                    className="w-full h-[22rem] object-cover"
+                    className="w-full h-[24rem] object-cover"
                   />
                   <div className="absolute bottom-0 left-0 w-full bg-white/90 backdrop-blur-sm p-4">
                     <h3 className="text-2xl font-semibold font-garamond mb-4">
                       Our Values
                     </h3>
-                    <p className="text-sm text-gray-700 text-center mt-2">
+                    <p className="text-sm text-gray-700 text-center mt-2 font-bold">
                       Integrity, Innovation, Excellence, Client-Centricity, and
                       Collaboration.
                     </p>
@@ -188,7 +205,7 @@ export default function Home({ posts }) {
           </section>
 
           {/* Testimonials */}
-          <section className="bg-blue-950 py-24 px-6 md:px-16 text-center overflow-hidden">
+          <section className="bg-[#b7860d] py-24 px-6 md:px-16 text-center overflow-hidden">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-4xl font-garamond md:text-5xl font-bold mb-6 text-white">
                 Client Testimonials
@@ -272,11 +289,18 @@ export default function Home({ posts }) {
             </a>
           </section>
           {/* Blog */}
-          <BlogList posts={posts} showTitle={true} />
+          {/* <BlogList posts={posts} showTitle={true} /> */}
           {/* LinkedIn Feed */}
           {/* <LinkedInFeed companyId="amasandrhodlaw" /> */}
         </main>
       </div>
+
+      {/* Modal Overlay: Uses AnimatePresence for smooth entry/exit */}
+      <AnimatePresence>
+        {selectedArea && (
+          <FocusAreaModal area={selectedArea} onClose={closeModal} />
+        )}
+      </AnimatePresence>
     </Layout>
   );
 }

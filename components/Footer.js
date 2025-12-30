@@ -58,7 +58,7 @@ export default function Footer() {
         <div className="flex flex-col space-y-2">
           <h4 className="text-2xl font-garamond mb-4">Contact Details</h4>
           <address className="not-italic text-lg">
-            8B Valley View Close,
+            Valley View Close,
             <br />
             Valley Estate, Ikeja,
             <br />
@@ -76,10 +76,10 @@ export default function Footer() {
           <p className="text-lg">
             Email:{" "}
             <a
-              href="mailto:Habeeb.a.jimoh@niegerianbar.ng"
+              href="mailto:Habeeb.a.jimoh@nigerianbar.ng"
               className="hover:underline"
             >
-              Habeeb.a.jimoh@niegerianbar.ng
+              Habeeb.a.jimoh@nigerianbar.ng
             </a>
           </p>
         </div>

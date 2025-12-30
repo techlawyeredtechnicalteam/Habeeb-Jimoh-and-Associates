@@ -2,25 +2,28 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-gray-50 sticky top-0 z-20 text-blue-950 py-6 px-8 shadow-lg">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+    <header className="bg-gray-50 sticky top-0 z-20 text-blue-950 shadow-lg py-4 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto flex justify-between items-center h-16">
         {/* Logo and Name */}
-        <Link href="/" className="flex items-center space-x-3">
-          <img
+        <div          
+          className="relative flex items-center w-32 h-10 md:w-48 md:h-16"
+        >
+          <Image
             src="/logo.png"
-            alt="Honoredge Legal Practice Logo"
-            className="h-14 w-auto"
+            alt="Habeeb-Jimoh & Associates Logo"
+            fill
+            className="object-cover"
           />
-          {/* <span className="font-bold hidden md:block text-xl tracking-wide">Honoredge Legal Practice</span> */}
-        </Link>
+        </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden md:flex space-x-4">
           {["About", "Attorneys", "Practice Areas", "Blog", "Contact"].map(
             (item, idx) => (
               <Link
@@ -33,7 +36,6 @@ export default function Header() {
                 className="relative group font-semibold tracking-wide"
               >
                 {item}
-                {/* <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-black transition-all group-hover:w-full"></span> */}
               </Link>
             )
           )}
