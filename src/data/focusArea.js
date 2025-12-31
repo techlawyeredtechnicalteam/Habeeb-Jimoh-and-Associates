@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const focusAreas = [
   {
     title: "Corporate law Banking & Insurance",
-    image: "/corporate-restructuring.jpg",
+    image: "/corporate-restructuring.png",
     description:
       "HJ & A is dedicated to delivering tailored legal solutions that meet the unique needs of our clients. Whether navigating complex financing transactions or ensuring regulatory compliance, our team is equipped to provide the highest level of legal support to banks and other financial institutions, and insurance companies operating in Nigeria and beyond."
   },
@@ -22,13 +22,13 @@ export const focusAreas = [
   },
   {
     title: "Intellectual Property & Data Privacy Law ",
-    image: "/area8.jpg",
+    image: "/area3.png",
     description:
       "The integration of our extensive background in intellectual property with our proficiency in corporate and commercial law equips us with a unique skill set. This enables us to adeptly guide clients through the complex intellectual property challenges that emerge in commercial transactions."
   },
   {
     title: "Dispute Resolution",
-    image: "/area9.Webp",
+    image: "/area9.png",
     description:
       "Our dispute resolution group is highly skilled in handling a broad spectrum of commercial disputes, including commercial debt recovery, employment and trade disputes, finance and securities disputes. Our expertise lies in solving problems and managing risks. Our experienced litigators effectively and efficiently bring cases, including the most complex, multifaceted issues, to resolution through Nigerian courts, arbitration or alternative dispute resolution."
   },
@@ -40,37 +40,37 @@ export const focusAreas = [
   },
   {
     title: "Real Estate",
-    image: "/real estate.jpg",
+    image: "/real estate.png",
     description:
       "Our real estate and construction team supports clients at every stage of real estate development, from planning and due diligence on land acquisition, to assisting with title perfection, advising on corporate structures and joint development agreements, and ultimately leasing office spaces or residential units to tenants upon completion of construction."
   },
   {
     title: "Immigration",
-    image: "/area12.jpg",
+    image: "/area12.png",
     description:
       "At Habeeb Jimoh & Associates (HJA), our Immigration Practice is dedicated to offering comprehensive legal services for individuals and businesses navigating the complexities of immigration law in Nigeria. We provide expert guidance on all aspects of immigration, including visa applications, work permits, expatriate quotas, and residency status."
   },
   {
     title: "Labour & Employment",
-    image: "/area13.jpg",
+    image: "/area13.png",
     description:
       "We ensure that both employers and employees understand and adhere to evolving legal standards, offering support through negotiation, mediation, and litigation. Whether you're managing a workforce or protecting your rights, HJA is your trusted partner for all labor and employment matters."
   },
   {
     title: "Transport & Logistics",
-    image: "/area6.jpg",
+    image: "/area6.png",
     description:
       "We offer specialized legal services for Nigeria’s transport and logistics companies. In recent years, we have continue to provide expert guidance on regulatory compliance, contract negotiations, and dispute resolution, ensuring that businesses in these industries operate smoothly and efficiently. For transport businesses, we address issues related to contracts, fleet management, and regulatory compliance. In logistics, we assist with supply chain management, warehousing, and customs regulations."
   },
   {
     title: "Environmental Law & Climate Change ",
-    image: "/area11.jpg",
+    image: "/area11.png",
     description:
       "When a company faces a lawsuit over pollution or environmental damage, our team defends them in the courts, which is a necessary part of this practice. We also do the critical background checks for large property deals, looking for hidden environmental problems that could later become a serious financial liability for the buyer, and we are very good at that part of the job. We believe that a business should be able to grow without harming the environment, and our job is to help them find that balance."
   },
   {
     title: "PRO BONO SERVICES ",
-    image: "/area10.jpg",
+    image: "/area10.png",
     description:
       "At Habeeb Jimoh & Associates, we believe that the pursuit of justice is a fundamental human right, not a privilege reserved for those who can afford it. Our Pro Bono Services are the cornerstone of our firm's ethos, reflecting our deep-seated commitment to social responsibility and the rule of law in Nigeria. We dedicate significant resources and expertise to champion the causes of the indigent and the marginalized, focusing on areas where the absence of legal representation can lead to the most profound injustices."
   }
