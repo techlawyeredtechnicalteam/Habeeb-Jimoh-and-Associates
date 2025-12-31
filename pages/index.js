@@ -73,8 +73,8 @@ export default function Home({ posts }) {
 
           {/* About Section */}
           <section id="about" className="py-24 bg-gray-50 px-6">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
-              <span className="flex items-center justify-center">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
+              <div className="flex justify-center lg:justify-start">
                 <Image
                   src="/logo.png"
                   alt="Habeeb Jimoh & Associates"
@@ -82,7 +82,7 @@ export default function Home({ posts }) {
                   height={200}
                   // className="object-contain"
                 />
-              </span>
+              </div>
               <div>
                 <h2 className="text-4xl font-garamond font-bold mb-4">
                   About Us
