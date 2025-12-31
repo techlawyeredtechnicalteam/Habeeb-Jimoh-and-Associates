@@ -104,7 +104,7 @@ export default function Home({ posts }) {
           {/* Practice Areas */}
           <section
             id="practice-areas"
-            className="bg-[#b7860d] text-white py-24 px-6 md:px-20"
+            className="bg-[#2596be] text-white py-24 px-6 md:px-20"
           >
             <div className="max-w-7xl mx-auto text-center">
               <h2 className="text-4xl font-garamond md:text-5xl font-bold mb-6">
