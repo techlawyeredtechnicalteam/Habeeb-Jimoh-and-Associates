@@ -66,18 +66,18 @@ export default function AboutUs() {
           </motion.section>
 
           {/* Mission, Vision, Values */}
-          <section className="grid md:grid-cols-2 gap-4">
+          <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               {
                 title: "Our Mission",
                 text: "Our mission is to revolutionize legal services by providing top-tier, accessible, and efficient legal solutions through a hybrid platform. We strive to uphold the highest standards of professionalism and integrity, building lasting relationships with our clients through personalized attention and exceptional legal expertise. Our goal is to consistently meet and exceed our clients' evolving needs, ensuring their success and peace of mind.",
                 image: "/mission.png"
               },
-              // {
-              //   title: "Our Vision",
-              //   text: "To redefine the legal landscape by becoming the foremost virtual law firm in Africa, celebrated for our unwavering dedication to innovation, excellence, and unparalleled client satisfaction.",
-              //   image: "/vision.png"
-              // },
+              {
+                title: "Our Vision",
+                text: "To redefine the legal landscape by becoming the foremost virtual law firm in Africa, celebrated for our unwavering dedication to innovation, excellence, and unparalleled client satisfaction.",
+                image: "/vision.png"
+              },
               {
                 title: "Our Values",
                 text: "Integrity, Innovation, Excellence, Client-Centricity, and Collaboration.",

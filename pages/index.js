@@ -68,23 +68,21 @@ export default function Home({ posts }) {
               <h1 className="text-5xl md:text-6xl font-garamond font-bold mb-6 leading-tight">
                 Habeeb Jimoh & Associates
               </h1>
-              {/* <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-                Innovative approach to legal services
-              </p> */}
             </div>
           </section>
 
           {/* About Section */}
           <section id="about" className="py-24 bg-gray-50 px-6">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div className="flex items-start">
+            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+              <span className="flex items-center justify-center">
                 <Image
                   src="/logo.png"
                   alt="Habeeb Jimoh & Associates"
                   width={200}
                   height={200}
+                  // className="object-contain"
                 />
-              </div>
+              </span>
               <div>
                 <h2 className="text-4xl font-garamond font-bold mb-4">
                   About Us
@@ -279,7 +277,7 @@ export default function Home({ posts }) {
             </h2>
             <p className="mb-8 text-lg max-w-2xl mx-auto">
               Ready to take the next step? Contact us today to discuss how we
-              can support your legal journey.
+              can support your journey.
             </p>
             <a
               href="/contact"

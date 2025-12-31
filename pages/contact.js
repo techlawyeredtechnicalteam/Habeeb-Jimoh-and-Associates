@@ -154,10 +154,10 @@ const Contact = () => {
                       Email
                     </h3>
                     <a
-                      href="mailto:Habeeb.a.jimoh@nigerianbar.ng"
+                      href="mailto:info@habeebjimohandassociates.com"
                       className="hover:underline"
                     >
-                      Habeeb.a.jimoh@nigerianbar.ng
+                      info@habeebjimohandassociates.com
                     </a>
                   </div>
                 </div>
