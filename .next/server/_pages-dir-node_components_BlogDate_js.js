@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "_pages-dir-node_components_BlogDate_js";
+exports.ids = ["_pages-dir-node_components_BlogDate_js"];
+exports.modules = {
+
+/***/ "(pages-dir-node)/./components/BlogDate.js":
+/*!********************************!*\
+  !*** ./components/BlogDate.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ BlogDate)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _barrel_optimize_names_FaCalendarAlt_FaComments_FaUser_react_icons_fa__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! __barrel_optimize__?names=FaCalendarAlt,FaComments,FaUser!=!react-icons/fa */ \"(pages-dir-node)/./node_modules/react-icons/fa/index.mjs\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\nfunction BlogDate({ date }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n        className: \"flex items-center space-x-1\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_barrel_optimize_names_FaCalendarAlt_FaComments_FaUser_react_icons_fa__WEBPACK_IMPORTED_MODULE_2__.FaCalendarAlt, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\oikeo\\\\OneDrive\\\\Documents\\\\GitHub\\\\Habeeb-Jimoh-and-Associates\\\\habeeb-associates\\\\components\\\\BlogDate.js\",\n                lineNumber: 8,\n                columnNumber: 4\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                children: new Date(date).toLocaleDateString()\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\oikeo\\\\OneDrive\\\\Documents\\\\GitHub\\\\Habeeb-Jimoh-and-Associates\\\\habeeb-associates\\\\components\\\\BlogDate.js\",\n                lineNumber: 9,\n                columnNumber: 4\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\oikeo\\\\OneDrive\\\\Documents\\\\GitHub\\\\Habeeb-Jimoh-and-Associates\\\\habeeb-associates\\\\components\\\\BlogDate.js\",\n        lineNumber: 7,\n        columnNumber: 3\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHBhZ2VzLWRpci1ub2RlKS8uL2NvbXBvbmVudHMvQmxvZ0RhdGUuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUMwQjtBQUN5QztBQUVwRCxTQUFTSSxTQUFTLEVBQUVDLElBQUksRUFBRTtJQUN4QyxxQkFDQyw4REFBQ0M7UUFBS0MsV0FBVTs7MEJBQ2YsOERBQUNMLGdIQUFhQTs7Ozs7MEJBQ2QsOERBQUNJOzBCQUFNLElBQUlFLEtBQUtILE1BQU1JLGtCQUFrQjs7Ozs7Ozs7Ozs7O0FBRzNDIiwic291cmNlcyI6WyJDOlxcVXNlcnNcXG9pa2VvXFxPbmVEcml2ZVxcRG9jdW1lbnRzXFxHaXRIdWJcXEhhYmVlYi1KaW1vaC1hbmQtQXNzb2NpYXRlc1xcaGFiZWViLWFzc29jaWF0ZXNcXGNvbXBvbmVudHNcXEJsb2dEYXRlLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiO1xyXG5pbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCB7IEZhVXNlciwgRmFDYWxlbmRhckFsdCwgRmFDb21tZW50cyB9IGZyb20gXCJyZWFjdC1pY29ucy9mYVwiO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gQmxvZ0RhdGUoeyBkYXRlIH0pIHtcclxuXHRyZXR1cm4gKFxyXG5cdFx0PHNwYW4gY2xhc3NOYW1lPVwiZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0xXCI+XHJcblx0XHRcdDxGYUNhbGVuZGFyQWx0IC8+XHJcblx0XHRcdDxzcGFuPntuZXcgRGF0ZShkYXRlKS50b0xvY2FsZURhdGVTdHJpbmcoKX08L3NwYW4+XHJcblx0XHQ8L3NwYW4+XHJcblx0KTsgXHJcbn1cclxuIl0sIm5hbWVzIjpbIlJlYWN0IiwiRmFVc2VyIiwiRmFDYWxlbmRhckFsdCIsIkZhQ29tbWVudHMiLCJCbG9nRGF0ZSIsImRhdGUiLCJzcGFuIiwiY2xhc3NOYW1lIiwiRGF0ZSIsInRvTG9jYWxlRGF0ZVN0cmluZyJdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(pages-dir-node)/./components/BlogDate.js\n");
+
+/***/ })
+
+};
+;

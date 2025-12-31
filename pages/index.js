@@ -104,13 +104,13 @@ export default function Home({ posts }) {
           {/* Practice Areas */}
           <section
             id="practice-areas"
-            className="bg-[#2596be] text-white py-24 px-6 md:px-20"
+            className="bg-[#c8c8c4] text-white py-24 px-6 md:px-20"
           >
             <div className="max-w-7xl mx-auto text-center">
-              <h2 className="text-4xl font-garamond md:text-5xl font-bold mb-6">
+              <h2 className="text-4xl font-garamond md:text-5xl font-bold mb-6 text-[#B7860D]">
                 What <span className="text-primary-200 italic">we do</span>
               </h2>
-              <p className="text-gray-400 text-lg mb-16">
+              <p className="text-gray-800 text-lg mb-16">
                 Click on any area to learn more about our expertise.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
