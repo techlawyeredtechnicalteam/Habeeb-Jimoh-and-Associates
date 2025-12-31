@@ -43,7 +43,7 @@ const attorneys = [
     name: "K. O. Jimoh (Mrs)",
     title: "Practice Manager",
     bio: "Mrs. Jimoh handles the complex job of managing all our internal processes, using her strong background in project management and data analysis to keep the firm on track. She is very good at tracking key performance indicators and making sure our schedules are met, which is important for a busy law firm where time is always short. She works closely with the partners to make sure we follow all the necessary rules and that our internal governance is strong, a necessary part of her job. Her focus is always on efficiency; she helped streamline the firm’s internal processes, which actually cut down on project delays and improved how we handle meetings. Mrs. Jimoh is the operational backbone of the firm, and her dedication to organized work is a huge part of the service we give our clients.",
-    image: "/lawyer4.png"
+    image: "/lawyer4.PNG"
   }
 ];
 
